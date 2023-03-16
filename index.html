@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>MRK</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="MRK.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="affix.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+});
+</script>
+<script>
+// NOTE: this code will fix the header at the top of the page. It will also change the background when in fixed mode (via the CSS classes above).
+$(document).ready(function()
+{
+   $("#wb_header").affix({offset:{top: $("#wb_header").offset().top}});
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="Html2">
+<tgju
+    type="market-data"
+    items="137138,137137,137139,137140"
+    columns="dot,diff,low,high,time"
+    token="webservice"
+></tgju>
+<script src="https://api.tgju.org/v1/widget/v2" defer></script></div>
+<div id="wb_Image1">
+<a href="https://telegram.org/Mrkmoodd"><img src="images/Telegram.png" id="Image1" alt="" width="25" height="25"></a></div>
+<div id="wb_Image2">
+<a href="https://www.instagram.com/Mrkmood"><img src="images/instagram.png" id="Image2" alt="" width="25" height="25"></a></div>
+<div id="wb_JavaScript1">
+<div id="basicdate"></div>
+<script>
+   var now = new Date();
+   var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+   var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+   var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+   var year = (now.getYear() < 1000) ? now.getYear() + 1900 : now.getYear();
+   today = days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + year;
+   var basicdate = document.getElementById('basicdate');
+   basicdate.innerHTML = today;
+</script>
+
+
+</div>
+<div id="wb_Text6">
+<span style="color:#000000;font-family:'Swis721 LtEx BT';font-size:12px;">Follow us :</span></div>
+<div id="wb_Image5">
+<img src="images/11.png" id="Image5" alt="" width="15" height="15"></div>
+<div id="wb_Image6">
+<img src="images/11.png" id="Image6" alt="" width="15" height="15"></div>
+<hr id="DividerLine2">
+<hr id="Line1">
+<div id="Html3">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+  <script src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "۵۰۰ سهام برتر",
+      "proName": "FOREXCOM:SPXUSD"
+    },
+    {
+      "description": "اتریوم",
+      "proName": "BINANCE:ETHUSDT"
+    },
+    {
+      "description": "بیتکوین",
+      "proName": "BINANCE:BTCUSDT"
+    },
+    {
+      "description": "ترون",
+      "proName": "BINANCE:TRXUSDT"
+    },
+    {
+      "description": "کاردانو",
+      "proName": "BINANCE:ADAUSDT"
+    },
+    {
+      "description": "اپل",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "تسلا",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "نتفلیکس",
+      "proName": "NASDAQ:NFLX"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "compact",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div id="Html4">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_e6b15"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT chart</span></a> by TradingView</div>
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <script>
+  new TradingView.widget(
+  {
+  "width": 1024,
+  "height": 600,
+  "symbol": "BINANCE:BTCUSDT",
+  "interval": "240",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_e6b15"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+
+<div id="Html5">
+<tgju
+    type="market-data"
+    items="137119,137123,137121,137122"
+    columns="dot,diff,low,high,time"
+    token="webservice"
+></tgju>
+<script src="https://api.tgju.org/v1/widget/v2" defer></script></div>
+<div id="wb_Text1" dir="rtl">
+<p>نمای بازار فلزات گران بها</p></div>
+<div id="Html6">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_9c658"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/TOTAL/?exchange=CRYPTOCAP" rel="noopener" target="_blank"><span class="blue-text">TOTAL chart</span></a> by TradingView</div>
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <script>
+  new TradingView.widget(
+  {
+  "width": 1024,
+  "height": 600,
+  "symbol": "CRYPTOCAP:TOTAL",
+  "interval": "240",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_9c658"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div id="Html7">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT analysis</span></a> by TradingView</div>
+  <script src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "interval": "1m",
+  "width": "400",
+  "isTransparent": false,
+  "height": "450",
+  "symbol": "BINANCE:BTCUSDT",
+  "showIntervalTabs": true,
+  "locale": "en",
+  "colorTheme": "dark"
+}
+  </script>
+</div>
+<!-- TradingView Widget END --></div>
+<div id="wb_Image9">
+<img src="images/Line.gif" id="Image9" alt="" width="835" height="9"></div>
+<div id="wb_Image4">
+<img src="images/Line.gif" id="Image4" alt="" width="835" height="9"></div>
+<div id="wb_Image21">
+<img src="images/2653f7_66e3c8390d434daa8a15fd20c6dc8be8.png" id="Image21" alt="" width="1024" height="25"></div>
+<div id="wb_Text4">
+<span style="color:#FFFFFF;font-family:'Swis721 LtEx BT';font-size:13px;"> Copyright © 2023, MRK. All rights reserved</span></div>
+<div id="wb_Text3" dir="rtl">
+<p>نمای بازار سکه</p></div>
+<div id="wb_Image18">
+<img src="images/11.png" id="Image18" alt="" width="15" height="15"></div>
+<div id="wb_Image19">
+<img src="images/11.png" id="Image19" alt="" width="15" height="15"></div>
+<hr id="Line10">
+<hr id="Line12">
+<hr id="Line2">
+<div id="wb_Image7">
+<img src="images/11.png" id="Image7" alt="" width="15" height="15"></div>
+<div id="wb_Image8">
+<img src="images/11.png" id="Image8" alt="" width="15" height="15"></div>
+<hr id="Line3">
+<div id="wb_Text5" dir="rtl">
+<p>رمز ارز</p></div>
+<hr id="Line4">
+<div id="wb_Image10">
+<img src="images/11.png" id="Image10" alt="" width="15" height="15"></div>
+<div id="wb_Image11">
+<img src="images/11.png" id="Image11" alt="" width="15" height="15"></div>
+<hr id="Line5">
+<div id="wb_Text2" dir="rtl">
+<p>نمودار بیتکوین</p></div>
+<hr id="Line11">
+<div id="wb_Image16">
+<img src="images/11.png" id="Image16" alt="" width="15" height="15"></div>
+<div id="wb_Image17">
+<img src="images/11.png" id="Image17" alt="" width="15" height="15"></div>
+<hr id="Line13">
+<div id="wb_Text9" dir="rtl">
+<p>حجم کل بازار رمز ارزها</p></div>
+<hr id="Line8">
+<div id="wb_Image14">
+<img src="images/11.png" id="Image14" alt="" width="15" height="15"></div>
+<div id="wb_Image15">
+<img src="images/11.png" id="Image15" alt="" width="15" height="15"></div>
+<hr id="Line9">
+<div id="wb_Text8" dir="rtl">
+<p>شاخص ترس و طمع بیتکوین</p></div>
+<div id="wb_Image12">
+<img src="images/Line.gif" id="Image12" alt="" width="835" height="9"></div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Image3">
+<img src="images/M2.png" id="Image3" alt="" width="115" height="143">
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
